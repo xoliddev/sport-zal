@@ -118,9 +118,8 @@ def world(names: dict, plans: list[dict], schedule: dict, gym: dict, today: int,
     visits = []
     for v in sorted(planned, key=lambda v: (v["day"], v["in"], v["member"])):
         ab = abons[v["abon"] - 1]
-        later = v["day"] == today and v["in"] > now_min
-        if later and (pin is None or ab["visits_left"] is not None):
-            continue  # the server seeds only the past; the demo keeps unlimited members' later visits as planned
+        if pin is None and v["day"] == today and v["in"] > now_min:
+            continue  # the server seeds only the past; the demo keeps the rest of today as planned
         if ab["visits_left"] is not None:
             if used.get(ab["id"], 0) >= ab["visits_left"]:
                 continue

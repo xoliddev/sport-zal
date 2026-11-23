@@ -114,8 +114,7 @@ export function world(names, plans, schedule, gym, today, nowMin, pin = null) {
   let visits = [];
   for (const v of [...plan].sort((a, b) => a.day - b.day || a.in - b.in || a.member - b.member)) {
     const ab = abons[v.abon - 1];
-    const later = v.day === today && v.in > nowMin;
-    if (later && (!pin || ab.visits_left !== null)) continue;
+    if (!pin && v.day === today && v.in > nowMin) continue;
     if (ab.visits_left !== null) {
       if ((used.get(ab.id) ?? 0) >= ab.visits_left) continue;
       used.set(ab.id, (used.get(ab.id) ?? 0) + 1);

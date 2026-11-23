@@ -15,13 +15,13 @@ function soonList(ctx, d) {
   const items = d.soon.slice(0, 40);
   return h('section', { class: 'p-card', 'data-testid': 'soon' }, h('div', { class: 'p-card-head' }, h('h2', {}, T(lang, 'adm.soon_title')),
     h('span', { class: 'pill warn' }, T(lang, 'adm.total', { n: d.soon.length }))), h('p', { class: 'p-hint' }, T(lang, 'adm.soon_hint')),
-  h('div', { class: 'table-wrap' }, h('table', { class: 'p-table' }, h('tbody', {}, items.map((s) => h('tr', { 'data-testid': `soon-${s.no}` },
-    h('td', {}, h('b', {}, s.name), h('small', {}, ` #${s.no}`)), h('td', {}, planName(lang, s.abon)),
-    h('td', {}, s.abon.visits_left === 1 ? h('span', { class: 'pill warn' }, leftText(T, lang, s.abon)) : leftText(T, lang, s.abon)),
-    h('td', {}, s.abon.days_left <= 3 ? h('span', { class: 'pill warn' }, T(lang, 'adm.ends', { date: dateShort(T, lang, s.abon.end_day) })) : T(lang, 'adm.ends', { date: dateShort(T, lang, s.abon.end_day) })),
-    h('td', { class: 'num' }, s.reminded ? h('span', { class: 'pill good', 'data-testid': `reminded-${s.no}` }, T(lang, 'adm.reminded', { time: hhmm(localMinute(s.reminded)) }))
+  h('ul', { class: 'soon-list' }, items.map((s) => h('li', { 'data-testid': `soon-${s.no}` },
+    h('div', { class: 'soon-who' }, h('b', {}, s.name), h('small', {}, `#${s.no} · ${planName(lang, s.abon)}`)),
+    h('div', { class: 'soon-why' }, s.abon.days_left <= 3 ? h('span', { class: 'pill warn' }, T(lang, 'adm.ends', { date: dateShort(T, lang, s.abon.end_day) })) : null,
+      s.abon.visits_left === 1 ? h('span', { class: 'pill warn' }, leftText(T, lang, s.abon)) : null),
+    h('div', { class: 'soon-act' }, s.reminded ? h('span', { class: 'pill good', 'data-testid': `reminded-${s.no}` }, T(lang, 'adm.reminded', { time: hhmm(localMinute(s.reminded)) }))
       : s.has_tg ? h('button', { type: 'button', class: 'p-btn', 'data-testid': `remind-${s.no}`, onclick: () => ctx.act(() => api.remind(s.abon.id), T(lang, 'adm.remind_sent', { name: s.name.split(' ')[0] })) },
-        T(lang, 'adm.remind')) : h('small', { class: 'muted' }, T(lang, 'adm.no_tg')))))))));
+        T(lang, 'adm.remind')) : h('small', { class: 'muted' }, T(lang, 'adm.no_tg')))))));
 }
 
 function revenueCard(ctx, rev, plans) {
