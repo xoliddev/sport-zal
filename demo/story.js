@@ -43,7 +43,11 @@ const ACTIONS = {
     const { backend: b, ui, focus, pause } = env;
     focus(AZIZ, 'app');
     if (ui) env.shot = await ui.qr();
-    else env.shot = { token: b.qr(AZIZ).token };
+    else {
+      const { token } = b.qr(AZIZ);
+      env.shot = { token, canvas: env.snapshot?.(token) ?? null }; // the screenshot as a picture, when there is a page
+      env.scanner?.repaint();
+    }
     await pause(1600);
   },
   // 4. The desk scans it: "✅ Kirish: Aziz — 11 tashrif qoldi", and the live count goes 41 -> 42 on both screens.

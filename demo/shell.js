@@ -4,6 +4,7 @@
 import { localDay } from '../shared/clock.js';
 import { dateShort, makeT } from '../shared/i18n.js';
 import { mountPanel } from '../admin/panel.js';
+import { qrCanvas } from '../webapp/qrview.js';
 import { mountApp } from '../webapp/ui.js';
 import { h, loadShared, makeText, store } from '../webapp/util.js';
 import { adminFor, apiFor } from './api.js';
@@ -66,6 +67,7 @@ const scanner = demoScanner({ P, sources: () => [
     thumb: () => (env.shot?.canvas ? h('img', { class: 'cam-thumb', src: env.shot.canvas.toDataURL(), alt: '' }) : null) },
 ] });
 env.scanner = scanner;
+env.snapshot = (token) => qrCanvas(token, 196);
 
 const win = createWindow({ P, users: [{ key: 'admin', uid: ADMIN, label: 'demo.as_admin' }, { key: 'owner', uid: OWNER, label: 'demo.as_owner' }],
   onUser: (uid) => setPanelUser(uid) });

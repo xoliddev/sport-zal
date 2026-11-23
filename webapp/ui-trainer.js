@@ -25,7 +25,7 @@ export async function renderTrainer(ctx) {
   const key = (s) => `${s.class}-${s.day}`;
   const openKey = ctx.open ? key(ctx.open) : '';
   const list = ctx.open ? await api.session(ctx.open.class, ctx.open.day).catch(() => null) : null;
-  const days = [...new Set(view.items.map((s) => s.day))].filter((d) => d >= today - 1);
+  const days = [...new Set(view.items.map((s) => s.day))].filter((d) => d >= today).concat(view.items.some((s) => s.day === today - 1) ? [today - 1] : []);
   return h('div', { class: 'screen', 'data-testid': 'trainer' }, h('h2', {}, T(lang, 'app.my_classes')),
     h('p', { class: 'hint' }, T(lang, 'app.trainer_hint')),
     ...days.map((d) => h('section', { class: 'day-group' }, h('h3', {}, d === today - 1 ? T(lang, 'app.yesterday') : whenText(T, lang, d, today)),

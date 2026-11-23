@@ -95,3 +95,8 @@ button { cursor: pointer; }
   .story::-webkit-scrollbar { display: none; }
   .story-btn { flex: none; }
 }
+@media (max-width: 760px) {
+  .demo-bar { position: static; }
+  .demo-btn { padding: 5px 9px; font-size: 12.5px; }
+  .demo-tools { gap: 6px; }
+}
