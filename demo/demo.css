@@ -100,3 +100,7 @@ button { cursor: pointer; }
   .demo-btn { padding: 5px 9px; font-size: 12.5px; }
   .demo-tools { gap: 6px; }
 }
+@media (max-width: 760px) {
+  .who-switch { position: sticky; top: 0; z-index: 30; margin: 0; border-radius: 0; border-width: 0 0 1px; background: rgba(23, 27, 30, .96); backdrop-filter: blur(6px); }
+  .phone, .win { height: calc(100dvh - 54px); }
+}

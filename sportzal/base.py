@@ -74,6 +74,8 @@ class Base:
                     await c.execute("INSERT OR IGNORE INTO members (user_id, name, joined_day) VALUES (?, ?, ?)",
                                     (uid, clean(name, 64) or "Mijoz", self.today()))
             row = await self.db.one("SELECT * FROM users WHERE id = ?", (uid,))
+            async with self.db.tx() as c:  # desk staff from the settings get their Telegram name (trainers keep the schedule's)
+                await c.execute("UPDATE staff SET name = ? WHERE user_id = ? AND trainer IS NULL", (row["name"], uid))
         return row
 
     async def user(self, uid: int) -> dict | None:
@@ -99,6 +101,8 @@ class Base:
                 for uid in ids:
                     await c.execute("INSERT OR REPLACE INTO staff (user_id, role, name, trainer) VALUES (?, ?, ?, NULL)",
                                     (uid, role, "Administrator" if role == "admin" else "Egasi"))
+                    await c.execute("UPDATE staff SET name = (SELECT name FROM users WHERE id = ?) WHERE user_id = ? "
+                                    "AND EXISTS (SELECT 1 FROM users WHERE id = ?)", (uid, uid, uid))
             await self.sync_classes(c)
 
     async def role(self, uid: int) -> dict:
