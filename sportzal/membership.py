@@ -94,7 +94,7 @@ class Membership:
             return None
         ab = abon_row(r)
         view = abon_view(ab, await self.freezes(self.db.conn, ab["id"]), await self.plans(), self.today(), self.minute())
-        return {**view, "name": view["ru" if lang == "ru" else "uz"]}
+        return {**view, "name": view["ru" if lang == "ru" else "uz"], "paid": r["paid"]}
 
     async def freeze(self, uid: int, data: dict) -> tuple[dict, list[dict]]:
         """Freeze the current abonement for ``days`` days from day ``from``. A member freezes their own; the desk anyone's."""
