@@ -1,0 +1,2193 @@
+{
+ "now": 1795000000000,
+ "today": 20775,
+ "morning": 1794975600000,
+ "nye": 20819,
+ "civil": [
+  {
+   "day": 0,
+   "out": [
+    1970,
+    1,
+    1
+   ],
+   "back": 0
+  },
+  {
+   "day": 20775,
+   "out": [
+    2026,
+    11,
+    18
+   ],
+   "back": 20775
+  },
+  {
+   "day": 20818,
+   "out": [
+    2026,
+    12,
+    31
+   ],
+   "back": 20818
+  },
+  {
+   "day": 20819,
+   "out": [
+    2027,
+    1,
+    1
+   ],
+   "back": 20819
+  },
+  {
+   "day": 21243,
+   "out": [
+    2028,
+    2,
+    29
+   ],
+   "back": 21243
+  }
+ ],
+ "minute": [
+  {
+   "ms": 1795000000000,
+   "day": 20775,
+   "min": 966,
+   "wd": 2
+  },
+  {
+   "ms": 1794975600000,
+   "day": 20775,
+   "min": 560,
+   "wd": 2
+  },
+  {
+   "ms": 1798743599999,
+   "day": 20818,
+   "min": 1439,
+   "wd": 3
+  },
+  {
+   "ms": 1798743600000,
+   "day": 20819,
+   "min": 0,
+   "wd": 4
+  },
+  {
+   "ms": 0,
+   "day": 0,
+   "min": 300,
+   "wd": 3
+  }
+ ],
+ "h32": [
+  {
+   "in": "",
+   "out": 2166136261
+  },
+  {
+   "in": "a",
+   "out": 3826002220
+  },
+  {
+   "in": "1:20775",
+   "out": 1095353
+  },
+  {
+   "in": "Aziz Karimov",
+   "out": 1847537892
+  },
+  {
+   "in": "Йога",
+   "out": 2593403961
+  }
+ ],
+ "sha256": [
+  {
+   "in": "",
+   "out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "in": "abc",
+   "out": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad"
+  },
+  {
+   "in": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "out": "aa20c23e3201834050679e1d88941b9a6fed0557c9a705cb2c315e2e63fd486d"
+  },
+  {
+   "in": "Sport Zal 🏋️",
+   "out": "efd6c9b1a58ed12c40297573681e1e91c0c19ec88fe1c55defbbf8948c651e2a"
+  }
+ ],
+ "hmac": [
+  {
+   "key": "key",
+   "msg": "The quick brown fox",
+   "out": "203d1e5cedd2d18f8c5a3beff0bd9c1ebcb97097dfcb288c46b00c9227fde2c0"
+  },
+  {
+   "key": "kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk",
+   "msg": "long key",
+   "out": "5903eedefe0bba3f15b658715e41d71f1848739bddf19e497e968df5723dcd56"
+  }
+ ],
+ "sell": [
+  {
+   "plan": "t12",
+   "price": 350000,
+   "start_day": 20775,
+   "end_day": 20804,
+   "visits_left": 12,
+   "window": null,
+   "freeze_left": 7
+  },
+  {
+   "plan": "t12",
+   "price": 350000,
+   "start_day": 20805,
+   "end_day": 20834,
+   "visits_left": 12,
+   "window": null,
+   "freeze_left": 7
+  },
+  {
+   "plan": "t12",
+   "price": 350000,
+   "start_day": 20775,
+   "end_day": 20804,
+   "visits_left": 12,
+   "window": null,
+   "freeze_left": 7
+  },
+  {
+   "plan": "morning",
+   "price": 300000,
+   "start_day": 20816,
+   "end_day": 20845,
+   "visits_left": null,
+   "window": [
+    420,
+    720
+   ],
+   "freeze_left": 7
+  }
+ ],
+ "state": [
+  {
+   "in": [
+    {
+     "id": 1,
+     "plan": "t12",
+     "price": 350000,
+     "start_day": 20775,
+     "end_day": 20804,
+     "visits_left": 12,
+     "window": null,
+     "freeze_left": 7
+    },
+    [],
+    20775,
+    600
+   ],
+   "out": {
+    "code": "ok"
+   }
+  },
+  {
+   "in": [
+    {
+     "id": 1,
+     "plan": "t12",
+     "price": 350000,
+     "start_day": 20775,
+     "end_day": 20804,
+     "visits_left": 12,
+     "window": null,
+     "freeze_left": 7
+    },
+    [],
+    20774,
+    600
+   ],
+   "out": {
+    "code": "not_started",
+    "day": 20775
+   }
+  },
+  {
+   "in": [
+    {
+     "id": 1,
+     "plan": "t12",
+     "price": 350000,
+     "start_day": 20775,
+     "end_day": 20804,
+     "visits_left": 12,
+     "window": null,
+     "freeze_left": 7
+    },
+    [],
+    20805,
+    600
+   ],
+   "out": {
+    "code": "expired",
+    "day": 20804
+   }
+  },
+  {
+   "in": [
+    {
+     "id": 1,
+     "plan": "t12",
+     "price": 350000,
+     "start_day": 20775,
+     "end_day": 20804,
+     "visits_left": 0,
+     "window": null,
+     "freeze_left": 7
+    },
+    [],
+    20775,
+    600
+   ],
+   "out": {
+    "code": "used_up"
+   }
+  },
+  {
+   "in": [
+    {
+     "id": 1,
+     "plan": "t12",
+     "price": 350000,
+     "start_day": 20775,
+     "end_day": 20804,
+     "visits_left": 12,
+     "window": null,
+     "freeze_left": 7
+    },
+    [
+     {
+      "from_day": 20777,
+      "days": 7
+     }
+    ],
+    20778,
+    600
+   ],
+   "out": {
+    "code": "frozen",
+    "day": 20783
+   }
+  },
+  {
+   "in": [
+    {
+     "id": 1,
+     "plan": "t12",
+     "price": 350000,
+     "start_day": 20775,
+     "end_day": 20804,
+     "visits_left": 12,
+     "window": null,
+     "freeze_left": 7
+    },
+    [
+     {
+      "from_day": 20777,
+      "days": 7
+     }
+    ],
+    20784,
+    600
+   ],
+   "out": {
+    "code": "ok"
+   }
+  },
+  {
+   "in": [
+    {
+     "id": 2,
+     "plan": "morning",
+     "price": 300000,
+     "start_day": 20775,
+     "end_day": 20804,
+     "visits_left": null,
+     "window": [
+      420,
+      720
+     ],
+     "freeze_left": 7
+    },
+    [],
+    20775,
+    1120
+   ],
+   "out": {
+    "code": "window",
+    "minute": 1120
+   }
+  },
+  {
+   "in": [
+    {
+     "id": 2,
+     "plan": "morning",
+     "price": 300000,
+     "start_day": 20775,
+     "end_day": 20804,
+     "visits_left": null,
+     "window": [
+      420,
+      720
+     ],
+     "freeze_left": 7
+    },
+    [],
+    20775,
+    420
+   ],
+   "out": {
+    "code": "ok"
+   }
+  },
+  {
+   "in": [
+    {
+     "id": 2,
+     "plan": "morning",
+     "price": 300000,
+     "start_day": 20775,
+     "end_day": 20804,
+     "visits_left": null,
+     "window": [
+      420,
+      720
+     ],
+     "freeze_left": 7
+    },
+    [],
+    20775,
+    720
+   ],
+   "out": {
+    "code": "window",
+    "minute": 720
+   }
+  },
+  {
+   "in": [
+    null,
+    [],
+    20775,
+    600
+   ],
+   "out": {
+    "code": "none"
+   }
+  }
+ ],
+ "pick": [
+  {
+   "in": [
+    [
+     {
+      "id": 1,
+      "plan": "t12",
+      "price": 350000,
+      "start_day": 20775,
+      "end_day": 20804,
+      "visits_left": 12,
+      "window": null,
+      "freeze_left": 7
+     },
+     {
+      "id": 3,
+      "plan": "t12",
+      "price": 350000,
+      "start_day": 20805,
+      "end_day": 20834,
+      "visits_left": 12,
+      "window": null,
+      "freeze_left": 7
+     }
+    ],
+    20775
+   ],
+   "out": {
+    "id": 1,
+    "plan": "t12",
+    "price": 350000,
+    "start_day": 20775,
+    "end_day": 20804,
+    "visits_left": 12,
+    "window": null,
+    "freeze_left": 7
+   }
+  },
+  {
+   "in": [
+    [
+     {
+      "id": 1,
+      "plan": "t12",
+      "price": 350000,
+      "start_day": 20775,
+      "end_day": 20804,
+      "visits_left": 12,
+      "window": null,
+      "freeze_left": 7
+     },
+     {
+      "id": 3,
+      "plan": "t12",
+      "price": 350000,
+      "start_day": 20805,
+      "end_day": 20834,
+      "visits_left": 12,
+      "window": null,
+      "freeze_left": 7
+     }
+    ],
+    20805
+   ],
+   "out": {
+    "id": 3,
+    "plan": "t12",
+    "price": 350000,
+    "start_day": 20805,
+    "end_day": 20834,
+    "visits_left": 12,
+    "window": null,
+    "freeze_left": 7
+   }
+  },
+  {
+   "in": [
+    [
+     {
+      "id": 2,
+      "plan": "morning",
+      "price": 300000,
+      "start_day": 20735,
+      "end_day": 20764,
+      "visits_left": null,
+      "window": [
+       420,
+       720
+      ],
+      "freeze_left": 7
+     }
+    ],
+    20775
+   ],
+   "out": {
+    "id": 2,
+    "plan": "morning",
+    "price": 300000,
+    "start_day": 20735,
+    "end_day": 20764,
+    "visits_left": null,
+    "window": [
+     420,
+     720
+    ],
+    "freeze_left": 7
+   }
+  },
+  {
+   "in": [
+    [],
+    20775
+   ],
+   "out": null
+  },
+  {
+   "in": [
+    [
+     {
+      "id": 1,
+      "plan": "t12",
+      "price": 350000,
+      "start_day": 20775,
+      "end_day": 20804,
+      "visits_left": 0,
+      "window": null,
+      "freeze_left": 7
+     },
+     {
+      "id": 3,
+      "plan": "t12",
+      "price": 350000,
+      "start_day": 20780,
+      "end_day": 20809,
+      "visits_left": 12,
+      "window": null,
+      "freeze_left": 7
+     }
+    ],
+    20775
+   ],
+   "out": {
+    "id": 3,
+    "plan": "t12",
+    "price": 350000,
+    "start_day": 20780,
+    "end_day": 20809,
+    "visits_left": 12,
+    "window": null,
+    "freeze_left": 7
+   }
+  }
+ ],
+ "freeze": [
+  {
+   "in": [
+    {
+     "id": 1,
+     "plan": "t12",
+     "price": 350000,
+     "start_day": 20775,
+     "end_day": 20804,
+     "visits_left": 12,
+     "window": null,
+     "freeze_left": 7
+    },
+    [],
+    20776,
+    7
+   ],
+   "out": {
+    "ok": {
+     "from_day": 20776,
+     "days": 7,
+     "end_day": 20811,
+     "freeze_left": 0
+    }
+   }
+  },
+  {
+   "in": [
+    {
+     "id": 1,
+     "plan": "t12",
+     "price": 350000,
+     "start_day": 20775,
+     "end_day": 20804,
+     "visits_left": 12,
+     "window": null,
+     "freeze_left": 7
+    },
+    [],
+    20775,
+    1
+   ],
+   "out": {
+    "ok": {
+     "from_day": 20775,
+     "days": 1,
+     "end_day": 20805,
+     "freeze_left": 6
+    }
+   }
+  },
+  {
+   "in": [
+    {
+     "id": 1,
+     "plan": "t12",
+     "price": 350000,
+     "start_day": 20775,
+     "end_day": 20804,
+     "visits_left": 12,
+     "window": null,
+     "freeze_left": 7
+    },
+    [],
+    20774,
+    7
+   ],
+   "out": {
+    "error": "freeze_from"
+   }
+  },
+  {
+   "in": [
+    {
+     "id": 1,
+     "plan": "t12",
+     "price": 350000,
+     "start_day": 20775,
+     "end_day": 20804,
+     "visits_left": 12,
+     "window": null,
+     "freeze_left": 7
+    },
+    [],
+    20790,
+    7
+   ],
+   "out": {
+    "error": "freeze_from"
+   }
+  },
+  {
+   "in": [
+    {
+     "id": 1,
+     "plan": "t12",
+     "price": 350000,
+     "start_day": 20775,
+     "end_day": 20804,
+     "visits_left": 12,
+     "window": null,
+     "freeze_left": 7
+    },
+    [],
+    20776,
+    8
+   ],
+   "out": {
+    "error": "freeze_days"
+   }
+  },
+  {
+   "in": [
+    {
+     "id": 1,
+     "plan": "t12",
+     "price": 350000,
+     "start_day": 20775,
+     "end_day": 20804,
+     "visits_left": 12,
+     "window": null,
+     "freeze_left": 7
+    },
+    [],
+    20776,
+    0
+   ],
+   "out": {
+    "error": "freeze_days"
+   }
+  },
+  {
+   "in": [
+    {
+     "id": 1,
+     "plan": "t12",
+     "price": 350000,
+     "start_day": 20775,
+     "end_day": 20804,
+     "visits_left": 12,
+     "window": null,
+     "freeze_left": 7
+    },
+    [],
+    "x",
+    7
+   ],
+   "out": {
+    "error": "freeze_from"
+   }
+  },
+  {
+   "in": [
+    {
+     "id": 1,
+     "plan": "t12",
+     "price": 350000,
+     "start_day": 20775,
+     "end_day": 20804,
+     "visits_left": 12,
+     "window": null,
+     "freeze_left": 7
+    },
+    [
+     {
+      "from_day": 20777,
+      "days": 7
+     }
+    ],
+    20776,
+    3
+   ],
+   "out": {
+    "error": "freeze_twice"
+   }
+  },
+  {
+   "in": [
+    {
+     "id": 1,
+     "plan": "t12",
+     "price": 350000,
+     "start_day": 20775,
+     "end_day": 20804,
+     "visits_left": 12,
+     "window": null,
+     "freeze_left": 7
+    },
+    [
+     {
+      "from_day": 20766,
+      "days": 7
+     }
+    ],
+    20776,
+    3
+   ],
+   "out": {
+    "ok": {
+     "from_day": 20776,
+     "days": 3,
+     "end_day": 20807,
+     "freeze_left": 4
+    }
+   }
+  },
+  {
+   "in": [
+    {
+     "id": 1,
+     "plan": "t12",
+     "price": 350000,
+     "start_day": 20775,
+     "end_day": 20804,
+     "visits_left": 0,
+     "window": null,
+     "freeze_left": 7
+    },
+    [],
+    20776,
+    3
+   ],
+   "out": {
+    "error": "freeze_state"
+   }
+  },
+  {
+   "in": [
+    {
+     "id": 1,
+     "plan": "t12",
+     "price": 350000,
+     "start_day": 20775,
+     "end_day": 20804,
+     "visits_left": 12,
+     "window": null,
+     "freeze_left": 0
+    },
+    [],
+    20776,
+    1
+   ],
+   "out": {
+    "error": "freeze_none"
+   }
+  },
+  {
+   "in": [
+    null,
+    [],
+    20775,
+    1
+   ],
+   "out": {
+    "error": "freeze_state"
+   }
+  },
+  {
+   "in": [
+    {
+     "id": 1,
+     "plan": "t12",
+     "price": 350000,
+     "start_day": 20775,
+     "end_day": 20778,
+     "visits_left": 12,
+     "window": null,
+     "freeze_left": 7
+    },
+    [],
+    20778,
+    7
+   ],
+   "out": {
+    "ok": {
+     "from_day": 20778,
+     "days": 7,
+     "end_day": 20785,
+     "freeze_left": 0
+    }
+   }
+  },
+  {
+   "in": [
+    {
+     "id": 1,
+     "plan": "t12",
+     "price": 350000,
+     "start_day": 20778,
+     "end_day": 20807,
+     "visits_left": 12,
+     "window": null,
+     "freeze_left": 7
+    },
+    [],
+    20776,
+    2
+   ],
+   "out": {
+    "error": "freeze_from"
+   }
+  }
+ ],
+ "soon": [
+  {
+   "in": {
+    "id": 1,
+    "plan": "t12",
+    "price": 350000,
+    "start_day": 20775,
+    "end_day": 20804,
+    "visits_left": 12,
+    "window": null,
+    "freeze_left": 7
+   },
+   "soon": false,
+   "rem": [],
+   "renewed": []
+  },
+  {
+   "in": {
+    "id": 1,
+    "plan": "t12",
+    "price": 350000,
+    "start_day": 20775,
+    "end_day": 20778,
+    "visits_left": 12,
+    "window": null,
+    "freeze_left": 7
+   },
+   "soon": true,
+   "rem": [
+    "end3"
+   ],
+   "renewed": []
+  },
+  {
+   "in": {
+    "id": 1,
+    "plan": "t12",
+    "price": 350000,
+    "start_day": 20775,
+    "end_day": 20779,
+    "visits_left": 12,
+    "window": null,
+    "freeze_left": 7
+   },
+   "soon": false,
+   "rem": [],
+   "renewed": []
+  },
+  {
+   "in": {
+    "id": 1,
+    "plan": "t12",
+    "price": 350000,
+    "start_day": 20775,
+    "end_day": 20804,
+    "visits_left": 1,
+    "window": null,
+    "freeze_left": 7
+   },
+   "soon": true,
+   "rem": [
+    "last1"
+   ],
+   "renewed": []
+  },
+  {
+   "in": {
+    "id": 1,
+    "plan": "t12",
+    "price": 350000,
+    "start_day": 20775,
+    "end_day": 20775,
+    "visits_left": 1,
+    "window": null,
+    "freeze_left": 7
+   },
+   "soon": true,
+   "rem": [
+    "end3",
+    "last1"
+   ],
+   "renewed": []
+  },
+  {
+   "in": {
+    "id": 1,
+    "plan": "t12",
+    "price": 350000,
+    "start_day": 20776,
+    "end_day": 20804,
+    "visits_left": 12,
+    "window": null,
+    "freeze_left": 7
+   },
+   "soon": false,
+   "rem": [],
+   "renewed": []
+  },
+  {
+   "in": {
+    "id": 1,
+    "plan": "t12",
+    "price": 350000,
+    "start_day": 20775,
+    "end_day": 20804,
+    "visits_left": 0,
+    "window": null,
+    "freeze_left": 7
+   },
+   "soon": false,
+   "rem": [],
+   "renewed": []
+  },
+  {
+   "in": null,
+   "soon": false,
+   "rem": [],
+   "renewed": []
+  }
+ ],
+ "price": [
+  {
+   "in": 350000,
+   "out": {
+    "ok": 350000
+   }
+  },
+  {
+   "in": "400000",
+   "out": {
+    "ok": 400000
+   }
+  },
+  {
+   "in": 999,
+   "out": {
+    "error": "price"
+   }
+  },
+  {
+   "in": 1500,
+   "out": {
+    "error": "price"
+   }
+  },
+  {
+   "in": 50000000,
+   "out": {
+    "ok": 50000000
+   }
+  },
+  {
+   "in": 50001000,
+   "out": {
+    "error": "price"
+   }
+  },
+  {
+   "in": true,
+   "out": {
+    "error": "price"
+   }
+  },
+  {
+   "in": null,
+   "out": {
+    "error": "price"
+   }
+  },
+  {
+   "in": 2.5,
+   "out": {
+    "error": "price"
+   }
+  }
+ ],
+ "rotqr": {
+  "seed": "test-only-qr-seed",
+  "secret": "b980edfa0c0f4bb60ab9b96789d5f65c3811e47ef1004e43c1d148d590d74a57",
+  "step": 59832520,
+  "now": 1794975600000,
+  "tokens": [
+   "SZ1.1.59832520.U2i7gxUt3A0F0GAZ",
+   "SZ1.42.59832519.8FR7zFl-OC3KUGge",
+   "SZ1.640.59832523.ZB2U9qIoB3fNcXjI"
+  ],
+  "verify": [
+   {
+    "in": "SZ1.1.59832520.U2i7gxUt3A0F0GAZ",
+    "out": {
+     "member": 1,
+     "step": 59832520
+    }
+   },
+   {
+    "in": "SZ1.42.59832519.8FR7zFl-OC3KUGge",
+    "out": {
+     "member": 42,
+     "step": 59832519
+    }
+   },
+   {
+    "in": "SZ1.640.59832523.ZB2U9qIoB3fNcXjI",
+    "out": null
+   },
+   {
+    "in": "SZ1.1.59832520.U2i7gxUt3A0F0GAA",
+    "out": null
+   },
+   {
+    "in": "SZ1.2.59832520.U2i7gxUt3A0F0GAZ",
+    "out": null
+   },
+   {
+    "in": "SZ1.1.59832518.RpiB6ZIYJp_EKqEy",
+    "out": null
+   },
+   {
+    "in": "SZ1.1.59832521.Ym_q_NkoxQmTHDSO",
+    "out": null
+   },
+   {
+    "in": "SZ1.1.5",
+    "out": null
+   },
+   {
+    "in": "",
+    "out": null
+   },
+   {
+    "in": 12345,
+    "out": null
+   },
+   {
+    "in": "SZ1.1.59832520.U2i7gxUt3A0F0GAZ ",
+    "out": {
+     "member": 1,
+     "step": 59832520
+    }
+   },
+   {
+    "in": "SZ1.0.5.AAAAAAAAAAAAAAAA",
+    "out": null
+   }
+  ],
+  "codes": [
+   {
+    "m": 1,
+    "s": 59832520,
+    "out": "J2A4-NWHJ"
+   },
+   {
+    "m": 1,
+    "s": 59832519,
+    "out": "K9P3-MK6T"
+   },
+   {
+    "m": 999,
+    "s": 12,
+    "out": "182E-K6ZN"
+   }
+  ],
+  "norm": [
+   {
+    "in": "pwen-r1zr",
+    "out": "PWEN-R1ZR"
+   },
+   {
+    "in": "PWEN R1ZR",
+    "out": "PWEN-R1ZR"
+   },
+   {
+    "in": "kOqI-l9xd",
+    "out": "K0Q1-19XD"
+   },
+   {
+    "in": "ABCD-EFG",
+    "out": null
+   },
+   {
+    "in": "ABCD-EFGU",
+    "out": null
+   },
+   {
+    "in": "",
+    "out": null
+   },
+   {
+    "in": 5,
+    "out": null
+   }
+  ],
+  "find": [
+   {
+    "in": "D4NB-NQH6",
+    "out": {
+     "member": 7,
+     "step": 59832520
+    }
+   },
+   {
+    "in": "D48J-MN7E",
+    "out": {
+     "member": 49,
+     "step": 59832519
+    }
+   },
+   {
+    "in": "Z30A-N97J",
+    "out": null
+   },
+   {
+    "in": "zzzz",
+    "out": null
+   }
+  ],
+  "left": [
+   30,
+   30,
+   1,
+   30,
+   18
+  ]
+ },
+ "qr": [
+  {
+   "in": "A",
+   "out": "111111101001001111111/100000101111101000001/101110100010101011101/101110101101101011101/101110100111001011101/100000100101101000001/111111101010101111111/000000001101100000000/101101110011101001011/010110010101111001000/110011101101000001101/101101000001001111100/100111100100100100100/000000001011001001001/111111101001100101000/100000101100000110110/101110100110111110001/101110101111001111110/101110101010101100000/100000100010010100101/111111101000010010000"
+  },
+  {
+   "in": "SZ1.1.59832520.U2i7gxUt3A0F0GAZ",
+   "out": "11111110110100011001101111111/10000010110010110110001000001/10111010010101110001101011101/10111010110100001110101011101/10111010011001000110001011101/10000010011100100101001000001/11111110101010101010101111111/00000000110011100110100000000/10110111000101101010101001011/00010100100000011011101011111/11101110010010110100000000000/10000001110111110010100101011/11000010000000001110010101110/01001101000101000111011100111/01111010110100100001101010001/01000001000101010011110010011/00111010011010000110000010001/00010001010001000000000000111/10110011101110000100101100100/00011000001100011100101100111/01010010111111011100111110101/00000000101001110000100011000/11111110110111000101101011110/10000010110010011000100011010/10111010010010101000111111101/10111010111011101100010010010/10111010101101100111011000001/10000010011011110001100010010/11111110110101100110110111010"
+  },
+  {
+   "in": "QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ",
+   "out": "111111101111001010101110101010101100101111111/100000100110111110010101010001000101001000001/101110101100010100111010111011101101001011101/101110100011010011010100010101010101101011101/101110100111010000101111101010101111101011101/100000101111001111101000110001000100001000001/111111101010101010101010101010101010101111111/000000000011111000111000100100010000000000000/101000110100000100011111101010101010100100101/111001010111100110000001010101010101010100010/001110100010110001111010101110111010101110101/001110001100011001000101000100010000000101010/011100110011100100101011101010101010101010111/111111010011000011000001010101010101010100010/110000100011101111101010101110111010101110101/100111001000110011010101000100010000000101010/110011110011110010101011101010101010101010111/010011010111000111000001010101010101010100010/011100110011101011101010101110111010101110101/100000010000110111010101000100010000000101010/010011111010111110101111101010101010111110111/000110001111011001001000110101010100100010010/011010101000010111111010101110111010101010101/110110001010000011001000100100010000100011010/000011111111010111101111101010101010111110111/110100011110101001001100010101010100010100010/011011100010010111010110101110111011001010101/110101000110100011100101000100010000110001000/000011110101110110110010101010101011011010110/110000001011001010001100010101010100010100010/000011101110100010110110101110111011001010101/000001010111011110000101000100010000110001010/000010110101111101010010101010101011011010111/110000001001010100001100010101010100010100010/000010101110111010110110101110111011001010101/011110010111011110000101000100010000110001010/100110101101101101011111101010101011111110111/000000001000001100011000110101010101100010010/111111101001000000111010101110111011101010101/100000100111111111111000100100010000100011010/101110100100101100111111101010101011111110111/101110100111010100110101010101010101000100011/101110101011100000111011101110111010101010101/100000100101111110010001000100010001010101000/111111101000101011101010101010101011101110101"
+  },
+  {
+   "in": "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww",
+   "out": "111111101101001110110111101111100101001111100111001111111/100000100110001011000101000101001111100101001101001000001/101110100110001010101000010000011010110000011111001011101/101110101011111011010010111010110000011010110001001011101/101110101110001111011111111111100101001111100101001011101/100000101110011011101101001000101111100101001110001000001/111111101010101010101010101010101010101010101010101111111/000000001110011011010000011000111010110000011010000000000/100010111101010010001101001111101111100101001111011111001/010010011111100110111111101111100101001111100101101111100/100011110001100000010010111010110000011010110000111010110/000000000111111101010000010000011010110000011010010000011/101011101101010010001001000101001111100101001111000101001/100111011111101100111001101111100101001111100101101111100/101001110101110000010110111010110000011010110000111010110/000101000001100101010110010000011010110000011010010000010/100010101001001110011111000101001111100101001111000101001/100100011001111110110001101111100101001111100101101111100/100011110111110111001100111010110000011010110000111010110/000001000001100011110110010000011010110000011010010000011/100011101010001110010101000101001111100101001111000101001/100100011000111111011101101111100101001111100101101111100/100010101000010111101100111010110000011010110000111010110/010001000000000010001110010000011010110000011010010000011/010011100101101111011101000101001111100101001111000101001/100100000100011111101101101111100101001111100101101111100/000011111000100111101100111111110000011010110000111110110/110010001001001010010110011000111010110000011010100010011/010010101100110101011101011010101111100101001111101011001/111110001100011110101101101000100101001111100100100011100/101011111000010111101100111111110000011010110000111110110/101010000001110000010110001010111010110000011010111010011/011110100100101101011101000111101111100101001110001111001/111111001100010010101101110101000101001111100101000101101/101011111100000001101000111000010000011010110001110000111/100010010101111110010010001010111010110000011010111010000/011100100010110111001111000111101111100101001110001111011/110100001010011000100111110101000101001111100101000101100/100000111100000110111110111000010000011010110001110000110/101010010001111001011100001010111010110000011010111010011/011100100001010111110001000111101111100101001110001111001/110110001010111001000101110101000101001111100101000101100/010001111010000111111110111000010000011010110001110000110/101001010100111000101100001010111010110000011010111010011/001111111110110110111001000111101111100101001110001111001/000101011100011000111101110101000101001111100101000101100/101001111011100111111110111000010000011010110001110000110/111110000101100000110100001010111010110000011010111010011/000000101111111101111001001111101111100101001110111111001/000000001101111100011101101000100101001111100101100011100/111111101010011001111010111010110000011010110000101010110/100000100101010010110010001000111010110000011010100010011/101110101111100001111001001111101111100101001110111111001/101110100101110010011011100111100101001111100101001111111/101110100100000011111000110010110000011010110000011010100/100000100111010000110110011000011010110000011010110000000/111111101111101011110011001101001111100101001111100101001"
+  }
+ ],
+ "qr_parts": {
+  "format": [
+   21522,
+   20773,
+   24188,
+   23371,
+   17913,
+   16590,
+   20375,
+   19104
+  ],
+  "version": [
+   31892,
+   34236,
+   39577,
+   42195
+  ],
+  "rs": [
+   196,
+   35,
+   39,
+   119,
+   235,
+   215,
+   231,
+   226,
+   93,
+   23
+  ]
+ },
+ "world": [
+  {
+   "today": 20775,
+   "minute": 560,
+   "pin": null,
+   "sizes": {
+    "members": 640,
+    "staff": 5,
+    "abonements": 1264,
+    "freezes": 22,
+    "visits": 8431,
+    "bookings": 1135,
+    "slots": 31
+   },
+   "digest": {
+    "members": 3019277669,
+    "staff": 3335428537,
+    "abonements": 2910320017,
+    "freezes": 356732187,
+    "visits": 1207858419,
+    "bookings": 3021331909,
+    "slots": 2701969871
+   },
+   "members": [
+    {
+     "no": 1,
+     "user_id": -100001,
+     "name": "Aziz Karimov",
+     "joined_day": 20774
+    },
+    {
+     "no": 2,
+     "user_id": -100002,
+     "name": "Ulug'bek Jo'rayev",
+     "joined_day": 20487
+    },
+    {
+     "no": 3,
+     "user_id": -100003,
+     "name": "Sevara Hamidova",
+     "joined_day": 20606
+    }
+   ],
+   "abon": [
+    {
+     "id": 1,
+     "member": 2,
+     "plan": "m3",
+     "price": 1200000,
+     "paid": "cash",
+     "sold_day": 20729,
+     "start_day": 20729,
+     "end_day": 20818,
+     "visits_left": null,
+     "window": null,
+     "freeze_left": 21
+    },
+    {
+     "id": 2,
+     "member": 3,
+     "plan": "morning",
+     "price": 300000,
+     "paid": "card",
+     "sold_day": 20730,
+     "start_day": 20730,
+     "end_day": 20759,
+     "visits_left": null,
+     "window": [
+      420,
+      720
+     ],
+     "freeze_left": 7
+    }
+   ],
+   "visit": [
+    {
+     "member": 324,
+     "abon": 621,
+     "in_at": 1794975300000,
+     "out_at": null,
+     "auto": 0
+    },
+    {
+     "member": 359,
+     "abon": 683,
+     "in_at": 1794975480000,
+     "out_at": null,
+     "auto": 0
+    }
+   ]
+  },
+  {
+   "today": 20775,
+   "minute": 560,
+   "pin": {
+    "minute": 560,
+    "count": 41
+   },
+   "sizes": {
+    "members": 640,
+    "staff": 5,
+    "abonements": 1264,
+    "freezes": 22,
+    "visits": 8559,
+    "bookings": 1135,
+    "slots": 31
+   },
+   "digest": {
+    "members": 3019277669,
+    "staff": 3335428537,
+    "abonements": 2910320017,
+    "freezes": 356732187,
+    "visits": 3090402268,
+    "bookings": 3021331909,
+    "slots": 2701969871
+   },
+   "members": [
+    {
+     "no": 1,
+     "user_id": -100001,
+     "name": "Aziz Karimov",
+     "joined_day": 20774
+    },
+    {
+     "no": 2,
+     "user_id": -100002,
+     "name": "Ulug'bek Jo'rayev",
+     "joined_day": 20487
+    },
+    {
+     "no": 3,
+     "user_id": -100003,
+     "name": "Sevara Hamidova",
+     "joined_day": 20606
+    }
+   ],
+   "abon": [
+    {
+     "id": 1,
+     "member": 2,
+     "plan": "m3",
+     "price": 1200000,
+     "paid": "cash",
+     "sold_day": 20729,
+     "start_day": 20729,
+     "end_day": 20818,
+     "visits_left": null,
+     "window": null,
+     "freeze_left": 21
+    },
+    {
+     "id": 2,
+     "member": 3,
+     "plan": "morning",
+     "price": 300000,
+     "paid": "card",
+     "sold_day": 20730,
+     "start_day": 20730,
+     "end_day": 20759,
+     "visits_left": null,
+     "window": [
+      420,
+      720
+     ],
+     "freeze_left": 7
+    }
+   ],
+   "visit": [
+    {
+     "member": 260,
+     "abon": 502,
+     "in_at": 1795019700000,
+     "out_at": 1795024800000,
+     "auto": 0
+    },
+    {
+     "member": 196,
+     "abon": 378,
+     "in_at": 1795020000000,
+     "out_at": 1795024800000,
+     "auto": 0
+    }
+   ]
+  },
+  {
+   "today": 20819,
+   "minute": 1080,
+   "pin": null,
+   "sizes": {
+    "members": 640,
+    "staff": 5,
+    "abonements": 1264,
+    "freezes": 22,
+    "visits": 8482,
+    "bookings": 1208,
+    "slots": 24
+   },
+   "digest": {
+    "members": 4104930731,
+    "staff": 3335428537,
+    "abonements": 2033284192,
+    "freezes": 829120396,
+    "visits": 2556194249,
+    "bookings": 3386486584,
+    "slots": 4016722245
+   },
+   "members": [
+    {
+     "no": 1,
+     "user_id": -100001,
+     "name": "Aziz Karimov",
+     "joined_day": 20818
+    },
+    {
+     "no": 2,
+     "user_id": -100002,
+     "name": "Ulug'bek Jo'rayev",
+     "joined_day": 20531
+    },
+    {
+     "no": 3,
+     "user_id": -100003,
+     "name": "Sevara Hamidova",
+     "joined_day": 20650
+    }
+   ],
+   "abon": [
+    {
+     "id": 1,
+     "member": 2,
+     "plan": "m3",
+     "price": 1200000,
+     "paid": "cash",
+     "sold_day": 20773,
+     "start_day": 20773,
+     "end_day": 20862,
+     "visits_left": null,
+     "window": null,
+     "freeze_left": 21
+    },
+    {
+     "id": 2,
+     "member": 3,
+     "plan": "morning",
+     "price": 300000,
+     "paid": "card",
+     "sold_day": 20774,
+     "start_day": 20774,
+     "end_day": 20803,
+     "visits_left": null,
+     "window": [
+      420,
+      720
+     ],
+     "freeze_left": 7
+    }
+   ],
+   "visit": [
+    {
+     "member": 51,
+     "abon": 94,
+     "in_at": 1798808160000,
+     "out_at": null,
+     "auto": 0
+    },
+    {
+     "member": 363,
+     "abon": 690,
+     "in_at": 1798808400000,
+     "out_at": null,
+     "auto": 0
+    }
+   ]
+  }
+ ],
+ "occupancy": {
+  "live": [
+   38,
+   0,
+   0
+  ],
+  "level": [
+   "low",
+   "low",
+   "mid",
+   "mid",
+   "high",
+   "high",
+   "high"
+  ],
+  "by_hour": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   7,
+   33,
+   43,
+   38,
+   22,
+   17,
+   10,
+   8,
+   7,
+   9,
+   13,
+   23,
+   29,
+   33,
+   16,
+   6,
+   0
+  ],
+  "forecast": {
+   "hours": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    6,
+    34,
+    43,
+    39,
+    30,
+    16,
+    10,
+    10,
+    8,
+    11,
+    16,
+    24,
+    31,
+    31,
+    15,
+    7,
+    0
+   ],
+   "weeks": 4
+  },
+  "forecast_nye": {
+   "hours": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "weeks": 0
+  },
+  "quiet": [
+   [
+    14,
+    16
+   ],
+   [
+    14,
+    16
+   ],
+   [
+    15,
+    17
+   ],
+   [
+    21,
+    23
+   ],
+   null
+  ],
+  "summary": {
+   "count": 0,
+   "capacity": 50,
+   "level": "low",
+   "pct": 0,
+   "forecast": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    6,
+    34,
+    43,
+    39,
+    30,
+    16,
+    10,
+    10,
+    8,
+    11,
+    16,
+    24,
+    31,
+    31,
+    15,
+    7,
+    0
+   ],
+   "weeks": 4,
+   "quiet": [
+    21,
+    23
+   ],
+   "open": 420,
+   "close": 1380,
+   "minute": 966,
+   "at": 1795000000000
+  },
+  "pinned": {
+   "count": 41,
+   "capacity": 50,
+   "level": "high",
+   "pct": 82,
+   "forecast": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    6,
+    34,
+    42,
+    36,
+    27,
+    15,
+    9,
+    9,
+    7,
+    11,
+    16,
+    23,
+    30,
+    30,
+    14,
+    6,
+    0
+   ],
+   "weeks": 4,
+   "quiet": [
+    14,
+    16
+   ],
+   "open": 420,
+   "close": 1380,
+   "minute": 560,
+   "at": 1794975600000
+  }
+ },
+ "classes": {
+  "sessions": [
+   {
+    "class": "pilates10",
+    "day": 20775
+   },
+   {
+    "class": "fit17",
+    "day": 20775
+   },
+   {
+    "class": "crossfit18",
+    "day": 20775
+   },
+   {
+    "class": "yoga19",
+    "day": 20775
+   },
+   {
+    "class": "yoga08",
+    "day": 20776
+   },
+   {
+    "class": "fit17",
+    "day": 20776
+   },
+   {
+    "class": "yoga19",
+    "day": 20776
+   },
+   {
+    "class": "boks20",
+    "day": 20776
+   },
+   {
+    "class": "pilates10",
+    "day": 20777
+   },
+   {
+    "class": "fit17",
+    "day": 20777
+   },
+   {
+    "class": "crossfit18",
+    "day": 20777
+   },
+   {
+    "class": "yoga19",
+    "day": 20777
+   },
+   {
+    "class": "yoga08",
+    "day": 20778
+   },
+   {
+    "class": "stretch11",
+    "day": 20778
+   },
+   {
+    "class": "yoga19",
+    "day": 20778
+   },
+   {
+    "class": "boks20",
+    "day": 20778
+   },
+   {
+    "class": "stretch11",
+    "day": 20779
+   },
+   {
+    "class": "yoga19",
+    "day": 20779
+   },
+   {
+    "class": "pilates10",
+    "day": 20780
+   },
+   {
+    "class": "fit17",
+    "day": 20780
+   },
+   {
+    "class": "crossfit18",
+    "day": 20780
+   },
+   {
+    "class": "yoga19",
+    "day": 20780
+   },
+   {
+    "class": "yoga08",
+    "day": 20781
+   },
+   {
+    "class": "fit17",
+    "day": 20781
+   },
+   {
+    "class": "yoga19",
+    "day": 20781
+   },
+   {
+    "class": "boks20",
+    "day": 20781
+   }
+  ],
+  "book": [
+   {
+    "ok": 20775
+   },
+   {
+    "error": "class_past"
+   },
+   {
+    "ok": 20782
+   },
+   {
+    "error": "class_far"
+   },
+   {
+    "error": "not_found"
+   }
+  ],
+  "cancel": [
+   {
+    "ok": null
+   },
+   {
+    "ok": null
+   },
+   {
+    "ok": null
+   },
+   {
+    "error": "cancel_late"
+   },
+   {
+    "error": "cancel_late"
+   },
+   {
+    "error": "cancel_late"
+   },
+   {
+    "error": "cancel_late"
+   }
+  ],
+  "mark": [
+   {
+    "error": "mark_early"
+   },
+   {
+    "error": "mark_early"
+   },
+   {
+    "error": "mark_early"
+   },
+   {
+    "error": "mark_early"
+   },
+   {
+    "ok": null
+   },
+   {
+    "error": "mark_early"
+   },
+   {
+    "ok": null
+   },
+   {
+    "ok": null
+   },
+   {
+    "error": "mark_late"
+   }
+  ],
+  "fill": [
+   0,
+   91,
+   100,
+   33,
+   500
+  ],
+  "slot": [
+   {
+    "ok": {
+     "day": 20776,
+     "start": 900,
+     "price": 150000
+    }
+   },
+   {
+    "error": "slot_time"
+   },
+   {
+    "error": "slot_day"
+   },
+   {
+    "error": "slot_time"
+   },
+   {
+    "error": "slot_time"
+   },
+   {
+    "error": "slot_price"
+   },
+   {
+    "error": "slot_price"
+   },
+   {
+    "error": "slot"
+   },
+   {
+    "error": "slot"
+   }
+  ],
+  "overlap": [
+   false,
+   true,
+   true,
+   false
+  ]
+ },
+ "stats": {
+  "month": [
+   [
+    20758,
+    20787
+   ],
+   [
+    20788,
+    20818
+   ],
+   [
+    20819,
+    20849
+   ],
+   [
+    21215,
+    21243
+   ]
+  ],
+  "revenue": {
+   "from": 20758,
+   "to": 20787,
+   "total": 141000000,
+   "count": 312,
+   "cash": 75650000,
+   "card": 65350000,
+   "rows": [
+    {
+     "plan": "t12",
+     "count": 84,
+     "sum": 29400000
+    },
+    {
+     "plan": "m1",
+     "count": 138,
+     "sum": 62100000
+    },
+    {
+     "plan": "morning",
+     "count": 65,
+     "sum": 19500000
+    },
+    {
+     "plan": "m3",
+     "count": 25,
+     "sum": 30000000
+    }
+   ]
+  },
+  "revenue_prev": {
+   "from": 20727,
+   "to": 20757,
+   "total": 245550000,
+   "count": 561,
+   "cash": 131950000,
+   "card": 113600000,
+   "rows": [
+    {
+     "plan": "t12",
+     "count": 156,
+     "sum": 54600000
+    },
+    {
+     "plan": "m1",
+     "count": 259,
+     "sum": 116550000
+    },
+    {
+     "plan": "morning",
+     "count": 112,
+     "sum": 33600000
+    },
+    {
+     "plan": "m3",
+     "count": 34,
+     "sum": 40800000
+    }
+   ]
+  },
+  "fill": [
+   {
+    "class": "yoga19",
+    "kind": "yoga",
+    "sessions": 28,
+    "taken": 238,
+    "places": 336,
+    "pct": 70
+   },
+   {
+    "class": "pilates10",
+    "kind": "pilates",
+    "sessions": 12,
+    "taken": 81,
+    "places": 120,
+    "pct": 67
+   },
+   {
+    "class": "yoga08",
+    "kind": "yoga",
+    "sessions": 12,
+    "taken": 104,
+    "places": 144,
+    "pct": 72
+   },
+   {
+    "class": "crossfit18",
+    "kind": "crossfit",
+    "sessions": 12,
+    "taken": 130,
+    "places": 168,
+    "pct": 77
+   },
+   {
+    "class": "boks20",
+    "kind": "boks",
+    "sessions": 12,
+    "taken": 83,
+    "places": 120,
+    "pct": 69
+   },
+   {
+    "class": "stretch11",
+    "kind": "stretching",
+    "sessions": 8,
+    "taken": 84,
+    "places": 120,
+    "pct": 70
+   },
+   {
+    "class": "fit17",
+    "kind": "stretching",
+    "sessions": 20,
+    "taken": 225,
+    "places": 300,
+    "pct": 75
+   }
+  ]
+ },
+ "sentences": [
+  {
+   "lang": "uz",
+   "scan": [
+    "✅ Kirish: Aziz — 11 tashrif qoldi",
+    "✅ Kirish: Laylo — cheksiz, 17-dekabrgacha",
+    "👋 Chiqish: Aziz — 1 soat 25 daqiqa",
+    "👋 Chiqish: Aziz — 2 soat",
+    "👋 Chiqish: Aziz — 7 daqiqa",
+    "❌ QR eskirgan yoki soxta",
+    "⚠️ Abonement tugagan",
+    "⚠️ Abonement tugagan",
+    "⚠️ Ertalabki abonement: hozir 18:40",
+    "⚠️ Muzlatilgan: 24-noyabrgacha",
+    "⚠️ 1-yanvardan boshlanadi",
+    "⚠️ Faol abonement yo'q"
+   ],
+   "detail": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Muddati 16-noyabrda tugagan",
+    "Hamma tashriflar ishlatilgan",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "state": [
+    "state.bad",
+    "Muddati 16-noyabrda tugagan",
+    "Tashriflar tugagan",
+    "Ertalabki abonement: hozir 18:40",
+    "Muzlatilgan: 24-noyabrgacha",
+    "1-yanvardan boshlanadi",
+    "Faol abonement yo'q"
+   ],
+   "left": [
+    "11 tashrif qoldi",
+    "cheksiz"
+   ],
+   "money": [
+    "0 so'm",
+    "350 000 so'm",
+    "1 200 000 so'm",
+    "141 350 000 so'm"
+   ],
+   "date": [
+    "18-noyabr",
+    "1-yanvar"
+   ],
+   "until": [
+    "18-noyabrgacha",
+    "1-yanvargacha"
+   ],
+   "live": "Hozir zalda 38 kishi",
+   "quiet": "Eng bo'sh vaqt: 14:00–16:00",
+   "no_quiet": "Bugun zal yopilishiga oz qoldi"
+  },
+  {
+   "lang": "ru",
+   "scan": [
+    "✅ Вход: Aziz — осталось посещений: 11",
+    "✅ Вход: Laylo — безлимит, до 17 декабря",
+    "👋 Выход: Aziz — 1 ч 25 мин",
+    "👋 Выход: Aziz — 2 ч",
+    "👋 Выход: Aziz — 7 мин",
+    "❌ QR устарел или поддельный",
+    "⚠️ Абонемент закончился",
+    "⚠️ Абонемент закончился",
+    "⚠️ Утренний абонемент: сейчас 18:40",
+    "⚠️ Заморожен до 24 ноября",
+    "⚠️ Начнётся 1 января",
+    "⚠️ Нет активного абонемента"
+   ],
+   "detail": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Срок истёк 16 ноября",
+    "Все посещения использованы",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "state": [
+    "state.bad",
+    "Срок истёк 16 ноября",
+    "Посещения закончились",
+    "Утренний абонемент: сейчас 18:40",
+    "Заморожен до 24 ноября",
+    "Начнётся 1 января",
+    "Нет активного абонемента"
+   ],
+   "left": [
+    "осталось посещений: 11",
+    "безлимит"
+   ],
+   "money": [
+    "0 сум",
+    "350 000 сум",
+    "1 200 000 сум",
+    "141 350 000 сум"
+   ],
+   "date": [
+    "18 ноября",
+    "1 января"
+   ],
+   "until": [
+    "до 18 ноября",
+    "до 1 января"
+   ],
+   "live": "Сейчас в зале: 38 чел.",
+   "quiet": "Самое свободное время: 14:00–16:00",
+   "no_quiet": "Сегодня зал скоро закрывается"
+  }
+ ],
+ "group": [
+  "0",
+  "7",
+  "999",
+  "1 000",
+  "350 000",
+  "1 234 567",
+  "-4 500"
+ ]
+}
