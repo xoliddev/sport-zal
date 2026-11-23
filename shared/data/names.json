@@ -1,0 +1,10 @@
+{
+  "male": ["Aziz", "Bekzod", "Jasur", "Otabek", "Sardor", "Doniyor", "Javohir", "Shoxrux", "Sherali", "Ulug'bek", "Farrux", "Bobur",
+           "Akmal", "Islom", "Jahongir", "Muhammadali", "Abror", "Temur", "Rustam", "Nodir", "Sanjar", "Eldor", "Zafar", "Ilhom"],
+  "female": ["Madina", "Dilnoza", "Gulnora", "Nilufar", "Shahnoza", "Malika", "Sevara", "Zarina", "Laylo", "Kamola", "Mohira",
+             "Nigora", "Feruza", "Dilfuza", "Munisa", "Sabina", "Yulduz", "Aziza", "Durdona", "Ozoda"],
+  "last": ["Karimov", "Yusupov", "Rahimov", "Aliyev", "Tursunov", "Nazarov", "Saidov", "Ergashev", "Qodirov", "Xolmatov", "Abdullayev",
+           "Mirzayev", "Sobirov", "Islomov", "Hamidov", "Jo'rayev", "Bakirov", "Normatov", "Ortiqov", "Sultonov", "Usmonov", "Fayziyev"],
+  "staff": {"owner": "Rustam Qodirov", "admin": "Dilnoza Saidova"},
+  "hero": "Aziz Karimov"
+}

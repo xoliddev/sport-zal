@@ -1,0 +1,6 @@
+[
+  {"id": "t12", "uz": "12 tashrif", "ru": "12 посещений", "price": 350000, "days": 30, "visits": 12, "window": null, "freeze": 7},
+  {"id": "m1", "uz": "1 oy cheksiz", "ru": "1 месяц безлимит", "price": 450000, "days": 30, "visits": null, "window": null, "freeze": 7},
+  {"id": "morning", "uz": "Ertalabki (07:00–12:00)", "ru": "Утренний (07:00–12:00)", "price": 300000, "days": 30, "visits": null, "window": [420, 720], "freeze": 7},
+  {"id": "m3", "uz": "3 oy cheksiz", "ru": "3 месяца безлимит", "price": 1200000, "days": 90, "visits": null, "window": null, "freeze": 21}
+]
